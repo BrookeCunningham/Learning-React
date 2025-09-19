@@ -1,4 +1,4 @@
-.counter-container{
+/* .counter-container{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -150,4 +150,32 @@ li{
 
 body{
   background-color: hsl(0,0%,10%);
+} */
+
+body{
+
+  background-color: hsl(320, 73%, 69%);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+}
+.clock-container{
+
+  background-color: hsl(320, 66%, 72%);
+  padding: 25px 40px;
+  border-radius: 30px;
+
+
+}
+.clock{
+
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 75%);
+
 }
